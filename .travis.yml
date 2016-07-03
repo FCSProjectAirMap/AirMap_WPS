@@ -6,3 +6,5 @@ install:
     - pip install -r requirements/development.txt
 script:
     - pep8 .
+notifications:
+  slack: fcschoolproj1:ggFIp6piNmez4HLy2ws3S5ls
