@@ -1,10 +1,11 @@
 from django.db import models
-from django.contrib.auth.models import AbstractUser
+from custom_user.models import AbstractEmailUser
 
 
-class User(AbstractUser):
+class User(AbstractEmailUser):
 
     phonenumber = models.CharField(
         max_length=16,
         blank=True,
         null=True,
+    )

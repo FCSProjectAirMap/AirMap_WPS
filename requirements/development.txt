@@ -3,3 +3,4 @@ Ipython[all]
 pep8
 django-debug-toolbar
 django-extensions
+django-custom-user
