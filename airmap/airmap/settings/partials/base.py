@@ -27,7 +27,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'custom_user',
+
     "airmap",
+    'users',
 ]
 
 MIDDLEWARE_CLASSES = [
