@@ -31,6 +31,7 @@ INSTALLED_APPS = [
 
     "airmap",
     'users',
+    'roots',
 ]
 
 MIDDLEWARE_CLASSES = [
