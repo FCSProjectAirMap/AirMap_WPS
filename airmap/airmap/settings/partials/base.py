@@ -31,7 +31,9 @@ INSTALLED_APPS = [
 
     "airmap",
     'users',
-]
+    'rest_framework',
+
+    ]
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
