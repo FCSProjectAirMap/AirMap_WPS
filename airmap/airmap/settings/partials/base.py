@@ -30,7 +30,8 @@ INSTALLED_APPS = [
     'custom_user',
 
     "airmap",
-    'users',
+    "users",
+    "travels",
 ]
 
 MIDDLEWARE_CLASSES = [
