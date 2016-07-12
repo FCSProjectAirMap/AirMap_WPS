@@ -21,29 +21,26 @@ class ImageMetaData(models.Model):
     )
 
     image = models.ImageField(
-        blank=True,
-        null=True,
     )
 
-    thumbnail_image = models.ImageField(
-        blank=True,
-        null=True,
-    )
+#    thumbnail_image = models.ImageField(
+#        blank=True,
+#        null=True,
+#    )
 
-    image_url = models.URLField(
-        blank=True,
-        null=True,
-    )
+#    image_url = models.URLField(
+#        blank=True,
+#        null=True,
+#    )
 
-    thumbnail_image_url = models.URLField(
-        blank=True,
-        null=True,
-    )
+#    thumbnail_image_url = models.URLField(
+#        blank=True,
+#        null=True,
+#    )
 
     timestamp = models.CharField(
         max_length=256,
     )
 
     creation_date = models.DateTimeField()
-
-    timezone_date = models.DateTimeField()
+#    timezone_date = models.DateTimeField()
