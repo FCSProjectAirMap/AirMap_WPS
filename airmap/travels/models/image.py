@@ -20,9 +20,9 @@ class ImageMetaData(models.Model):
         max_length=256,
     )
 
-    image = models.ImageField(
-    )
-
+#    image = models.ImageField(
+#    )
+#
 #    thumbnail_image = models.ImageField(
 #        blank=True,
 #        null=True,
