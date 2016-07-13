@@ -3,4 +3,3 @@ dj-database-url
 psycopg2
 djangorestframework
 Pillow
-develop
