@@ -52,7 +52,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, "airmap", "templates"),    
+            os.path.join(BASE_DIR, "airmap", "templates"),
          ],
         'APP_DIRS': True,
         'OPTIONS': {
