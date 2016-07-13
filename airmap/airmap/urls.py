@@ -3,7 +3,7 @@ from django.contrib import admin
 
 from rest_framework_jwt.views import obtain_jwt_token
 
-from api.users import *
+from users.api import *
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),

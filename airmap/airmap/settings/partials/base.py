@@ -29,7 +29,6 @@ INSTALLED_APPS = [
 
     'custom_user',
 
-    "airmap",
     'users',
     'rest_framework',
 
