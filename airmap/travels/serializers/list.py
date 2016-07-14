@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from travels.models import travel
+from travels.models import Travel
 
 
 class TravelModelSerializer(serializers.ModelSerializer):

@@ -1,11 +1,11 @@
 from rest_framework import serializers
-from travels.models import travel
+from travels.models import Travel
 
 
 class DetailModelSerializer(serializers.ModelSerializer):
 
     class Meta:
-        model = travel
+        model = Travel
         fields = [
                 "creation_data",
                 "latitude",

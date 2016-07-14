@@ -1,6 +1,5 @@
 from rest_framework.generics import ListAPIView
 from api.travel.serializers import DetailModelSerializer
-from travels.models import travel
 
 
 class TravelDetailAPIView(ListAPIView):

@@ -1,6 +1,4 @@
 from rest_framework.generics import ListAPIView
-from rest_framework.response import Response
-from travles.models import travel
 from api.travel.serializers import TravelModelSerializer
 
 
