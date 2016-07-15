@@ -27,8 +27,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'custom_user',
-
     'users',
     'rest_framework',
     "travels",
@@ -65,3 +63,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'airmap.wsgi.application'
+
+# geopy Google api key
+GOOGLEV3_API_KEY = os.environ.get("GOOGLEV3_API_KEY")
